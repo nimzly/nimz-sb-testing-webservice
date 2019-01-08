@@ -31,14 +31,14 @@ public class StudentService {
 	                "Pom.xml", "Build Life Cycle", "Parent POM",
 	                "Importing into Eclipse"));
 
-	Student ranga = new Student("Student1", "Nimz Nimzy",
+	Student nimz = new Student("Student1", "Nimz Nimzy",
 	        "Hiker, Programmer and Architect", new ArrayList<>(Arrays.asList(course1, course2, course3, course4)));
 
-	Student satish = new Student("Student2", "Ali Aslam",
+	Student ali = new Student("Student2", "Ali Aslam",
 	        "Hiker, Programmer and Architect", new ArrayList<>(Arrays.asList(course1, course2, course3, course4)));
 
-	students.add(ranga);
-	students.add(satish);
+	students.add(nimz);
+	students.add(ali);
     }
 
     public List<Student> retrieveAllStudents() {
